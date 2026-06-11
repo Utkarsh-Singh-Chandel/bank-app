@@ -27,4 +27,14 @@ public class Account {
 
     }
 
+    public Double getBalance(){
+        return this.balance;
+
+    }
+
+    public void incrementBalance(Double amt){
+        this.balance += amt;
+
+    }
+
 }
